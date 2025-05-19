@@ -1,12 +1,14 @@
 /* BEGIN - Header */
 .flexRow--header {
   background: var(--b2b-header-blue-medium);
+  background-color: #f8f8f8;
 }
 
 .flexRowContent--header {
-  height: 72px;
+  height: 110px;
   display: flex;
   align-items: center;
+  background-color: #f8f8f8;
 }
 
 .flexRow--headerStripe {
