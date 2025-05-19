@@ -18,6 +18,7 @@
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
   height: 48px;
+  border-radius: 10px;
 }
 
 .imageElement--vtexLogo {
@@ -610,7 +611,11 @@
 /* Shipping Simulator */
 
 .shippingContainer
-  :not(:global(.vtex-address-form__postalCode)):not(:global(.vtex-input)):not(:global(.vtex-input-prefix__group)):not(:global(.vtex-address-form-4-x-input)):not(:global(.vtex-button)):not(:global(.vtex-button__label)) {
+  :not(:global(.vtex-address-form__postalCode)):not(:global(.vtex-input)):not(
+    :global(.vtex-input-prefix__group)
+  ):not(:global(.vtex-address-form-4-x-input)):not(:global(.vtex-button)):not(
+    :global(.vtex-button__label)
+  ) {
   display: none;
 }
 
