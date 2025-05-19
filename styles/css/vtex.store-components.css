@@ -19,6 +19,7 @@
 .searchBarContainer :global(.vtex-input-prefix__group) {
   height: 48px;
   border-radius: 10px;
+  border-color: #861819;
 }
 
 .imageElement--vtexLogo {
@@ -131,10 +132,12 @@
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   max-width: 100%;
   width: 100%;
+  background-color: #f8f8f8;
 }
 
 .searchBarContainer :global(.vtex-input__suffix) {
   border-radius: 0px;
+  background-color: #f8f8f8;
 }
 
 .imageElement--paymentImage {
