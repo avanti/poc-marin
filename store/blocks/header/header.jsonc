@@ -1,20 +1,12 @@
 {
   "header": {
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#desktop": {
     "props": {
@@ -30,32 +22,22 @@
     ]
   },
   "flex-layout.row#telemarketing": {
-    "children": [
-      "telemarketing"
-    ],
+    "children": ["telemarketing"],
     "props": {
-      "blockClass": [
-        "bg-blue-medium"
-      ],
+      "blockClass": ["bg-blue-medium"],
       "fullWidth": true
     }
   },
   "flex-layout.row#pendingOrgAlert": {
-    "children": [
-      "b2b-warning-topbar-inactive-organization"
-    ],
+    "children": ["b2b-warning-topbar-inactive-organization"],
     "props": {
       "fullWidth": true
     }
   },
   "flex-layout.row#organization": {
-    "children": [
-      "b2b-user-widget"
-    ],
+    "children": ["b2b-user-widget"],
     "props": {
-      "blockClass": [
-        "bg-fresh-blue-lightest"
-      ],
+      "blockClass": ["bg-fresh-blue-lightest"],
       "fullWidth": true
     }
   },
@@ -75,9 +57,7 @@
     ]
   },
   "flex-layout.col#search-bar": {
-    "children": [
-      "search-bar"
-    ],
+    "children": ["search-bar"],
     "props": {
       "paddingLeft": 8,
       "width": "grow"
@@ -136,22 +116,18 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "logo"
-    ]
+    "children": ["logo"]
   },
   "logo": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/icons/logoB2B.svg",
+      "url": "https://marinlogistica.vtexassets.com/assets/vtex.file-manager-graphql/images/10d2c619-27c9-4347-9728-6f1e8e0dfbbe___1a9d6c54af93d2940c21a5e854fbda73.svg",
       "width": "123"
     }
   },
   "header-layout.mobile": {
-    "children": [
-      "sticky-layout#mobile"
-    ]
+    "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
     "children": [
@@ -164,9 +140,7 @@
     }
   },
   "flex-layout.row#mobileHeader": {
-    "children": [
-      "flex-layout.col#mobileHeader"
-    ]
+    "children": ["flex-layout.col#mobileHeader"]
   },
   "slider-layout#menuLinks": {
     "props": {
@@ -189,21 +163,13 @@
     ]
   },
   "flex-layout.col#mobileHeader": {
-    "children": [
-      "flex-layout.row#mobile",
-      "flex-layout.row#mobileSearch"
-    ],
+    "children": ["flex-layout.row#mobile", "flex-layout.row#mobileSearch"],
     "props": {
       "blockClass": "main-header-mobile"
     }
   },
   "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "check-permission#login",
-      "minicart.v2"
-    ],
+    "children": ["drawer", "logo", "check-permission#login", "minicart.v2"],
     "props": {
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
@@ -219,26 +185,20 @@
     }
   },
   "link#profile": {
-    "children": [
-      "icon-profile"
-    ],
+    "children": ["icon-profile"],
     "props": {
       "href": "/account",
       "blockClass": "accountLink"
     }
   },
   "flex-layout.row#mobileSearch": {
-    "children": [
-      "search-bar#mobile"
-    ],
+    "children": ["search-bar#mobile"],
     "props": {
       "blockClass": "searchBarMobile"
     }
   },
   "search-bar#mobile": {
-    "blocks": [
-      "autocomplete-result-list.v2#mobile"
-    ],
+    "blocks": ["autocomplete-result-list.v2#mobile"],
     "props": {
       "openAutocompleteOnFocus": true,
       "blockClass": "searchMobile"
