@@ -80,7 +80,7 @@
   },
   "rich-text#shopByTitle": {
     "props": {
-      "text": "### Shop by category",
+      "text": "### Compre por categoria",
       "blockClass": "shopByCategoryTitle"
     }
   },
