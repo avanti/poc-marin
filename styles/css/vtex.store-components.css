@@ -111,6 +111,7 @@
 
 .imageElement--bannerThird {
   margin-bottom: 24px;
+  background-color: orange !important;
 }
 
 .logoContainer {

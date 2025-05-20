@@ -721,3 +721,7 @@
 .flexCol--c-on-base--inverted {
   color: #fff;
 }
+
+.flexColChild--img-center {
+  margin: auto;
+}
