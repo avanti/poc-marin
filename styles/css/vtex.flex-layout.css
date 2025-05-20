@@ -13,6 +13,7 @@
 
 .flexRow--headerStripe {
   background: var(--b2b-blue-darkest);
+  background-color: #861819;
 }
 
 .flexCol--drawerInnerCol :global(.vtex-login-2-x-buttonLink) {
@@ -83,7 +84,7 @@
 /* BEGIN - Header */
 
 .flexRow--full-banner {
-  background-color: #3296f2;
+  background-color: orange;
   margin-bottom: 1.5rem;
 }
 

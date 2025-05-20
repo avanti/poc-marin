@@ -1,7 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      /* "responsive-layout.desktop", "responsive-layout.mobile" */
+      "responsive-layout.desktop"
+      /* , "responsive-layout.mobile" */
     ]
   },
   "responsive-layout.desktop": {
@@ -10,11 +11,11 @@
       "flex-layout.row#shopByCategory",
       // Deprecated
       // "flex-layout.row#shopByBrand",
-      "flex-layout.row#shelf1",
+      "flex-layout.row#shelf1", // shelf com problema
       "flex-layout.row#imageBanners",
       "flex-layout.row#singleBanner",
-      "flex-layout.row#popular",
-      "flex-layout.row#trending",
+      //"flex-layout.row#popular", //popular com defeito
+      //"flex-layout.row#trending", // trending com defeito
       "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
     ]
@@ -40,16 +41,16 @@
       "images": [
         {
           "width": "1440px",
-          "image": "assets/placeholders/fullbannerDesktop.png",
+          "image": "https://marinlogistica.vtexassets.com/assets/vtex.file-manager-graphql/images/efa8a821-7a97-4e65-82e7-45da39188643___d5b4cee69e60457ea253df79eea3043d.jpg",
           "mobileImage": "assets/placeholders/fullbannerMobile.png",
           "description": "something something"
-        },
-        {
+        }
+        /*  {
           "width": "1440px",
           "image": "assets/placeholders/fullbannerDesktop.png",
           "mobileImage": "assets/placeholders/fullbannerMobile.png",
           "description": "something something"
-        }
+        } */
       ]
     }
   },
