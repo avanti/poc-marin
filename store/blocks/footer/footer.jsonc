@@ -71,25 +71,25 @@
   },
   "rich-text#footerTitle1": {
     "props": {
-      "text": "About us",
+      "text": "Sobre nós",
       "blockClass": "footerTitle"
     }
   },
   "rich-text#footerTitle2": {
     "props": {
-      "text": "Costumer Service",
+      "text": "Atendimento ao Cliente",
       "blockClass": "footerTitle"
     }
   },
   "rich-text#footerTitle3": {
     "props": {
-      "text": "Contact Us",
+      "text": "Fale Conosco",
       "blockClass": "footerTitle"
     }
   },
   "rich-text#footerTitle4": {
     "props": {
-      "text": "Pay with credit card",
+      "text": "Pague com cartão de crédito",
       "blockClass": "footerTitle"
     }
   },
@@ -121,13 +121,13 @@
   },
   "rich-text#call": {
     "props": {
-      "text": "call us",
+      "text": "Ligue",
       "blockClass": "callTo"
     }
   },
   "rich-text#mail": {
     "props": {
-      "text": "send a message",
+      "text": "Envie uma mensagem",
       "blockClass": "mailTo"
     }
   },

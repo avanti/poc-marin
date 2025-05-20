@@ -197,6 +197,7 @@
 .flexRow--footerStripe {
   background: #002446;
   margin-top: 16px;
+  display: none;
 }
 
 /* END - Footer */
