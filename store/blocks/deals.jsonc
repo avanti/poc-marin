@@ -64,7 +64,7 @@
 
   "rich-text#title--deals": {
     "props": {
-      "text": "## Today's Deals",
+      "text": "## Ofertas do dia",
       "blockClass": "title"
     }
   }

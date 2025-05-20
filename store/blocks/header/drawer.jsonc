@@ -34,7 +34,7 @@
   // },
   "link#reseller": {
     "props": {
-      "label": "Organization Signup",
+      "label": "Inscrição na Organização",
       "href": "/organization-request",
       "blockClass": "resellerLink"
     }

@@ -85,25 +85,25 @@
   "rich-text#headStripe1": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Today's Deals](/deals)"
+      "text": "[Ofertas do Dia](/deals)"
     }
   },
   "rich-text#headStripe2": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[New Releases](/releases)"
+      "text": "[Novos Lançamentos](/releases)"
     }
   },
   "rich-text#headStripe3": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Top Sales](/top-sales)"
+      "text": "[Mais vendidos](/top-sales)"
     }
   },
   "rich-text#headStripe4": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Costumer Services](/services)"
+      "text": "[Atendimento ao Cliente](/services)"
     }
   },
   "rich-text#headStripe5": {
@@ -206,7 +206,7 @@
   },
   "login": {
     "props": {
-      "iconLabel": "Hello, Sign in"
+      "iconLabel": "Minha Conta"
     }
   },
   "login#mobile": {
