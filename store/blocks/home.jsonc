@@ -37,7 +37,7 @@
   "list-context.image-list#homeBanners": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 328,
+      "height": 400,
       "images": [
         {
           "width": "1440px",
