@@ -65,7 +65,7 @@
   },
   "rich-text#followTitle": {
     "props": {
-      "text": "Follow us",
+      "text": "Siga-nos",
       "blockClass": "followTitle"
     }
   },

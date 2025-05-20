@@ -92,10 +92,13 @@
 
 .childrenContainer--linkCall {
   background: var(--b2b-header-blue-medium);
+  background-color: transparent;
 }
 
 .childrenContainer--linkMail {
   border: 1px solid var(--b2b-header-blue-medium);
+  background-color: transparent;
+  border: none;
 }
 
 .link--linkCall,
