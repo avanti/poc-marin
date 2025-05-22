@@ -8,7 +8,7 @@
       //"flex-layout.row#shopByCategory",
       // Deprecated
       // "flex-layout.row#shopByBrand",
-      //"flex-layout.row#shelf1", // shelf com problema
+      "flex-layout.row#shelf1", // shelf com problema
       "flex-layout.row#imageBanners",
       "flex-layout.row#singleBanner",
       //"flex-layout.row#popular", //popular com defeito
