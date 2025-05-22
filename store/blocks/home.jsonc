@@ -16,7 +16,7 @@
       //"flex-layout.row#popular", //popular com defeito
       //"flex-layout.row#trending", // trending com defeito
       "flex-layout.row#benefits"
-      //"flex-layout.row#newsletter"
+      "flex-layout.row#newsletter"
     ]
   },
 
