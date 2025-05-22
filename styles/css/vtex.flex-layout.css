@@ -252,7 +252,7 @@
 /* END - Filter */
 /* BEGIN - SearchPage */
 
-:global(.vtex-search-result-13-x-searchNotFoundTerm) {
+:global(.vtex-search-result-3-x-searchNotFoundTerm) {
   color: #861819;
 }
 
