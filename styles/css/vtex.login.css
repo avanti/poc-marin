@@ -17,12 +17,20 @@
 }
 
 .profile {
-  color: #fff;
+  color: #861819;
 }
 
 .sendButton :global(.vtex-button) {
   background: #214d8e;
   border: none;
+}
+
+.contentForm .button {
+  color: #861819;
+}
+
+:global(.vtex-login-2-x-accountOptions) :global(.vtex-button) {
+  color: #861819;
 }
 
 @media (max-width: 64rem) {
