@@ -41,7 +41,8 @@
   color: #861819;
 }
 
-:global(.vtex-styleguide-9-x-input) {
+:global(.vtex-login-12-x-inputContainerEmail)
+  :global(.vtex-styleguide-9-x-input) {
   font-size: 12px;
 }
 
