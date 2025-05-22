@@ -25,6 +25,10 @@
   border: none;
 }
 
+.content--accountOptions {
+  border-radius: 10px;
+}
+
 .contentForm .button {
   color: #861819;
 }
