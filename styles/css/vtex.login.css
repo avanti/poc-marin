@@ -25,11 +25,40 @@
   border: none;
 }
 
+:global(.vtex-login-2-x-accessCodeOptionBtn) .button {
+  color: #861819;
+}
+
+:global(.vtex-login-2-x-content) {
+  border-radius: 10px;
+}
+
 .contentContainer {
   border-radius: 10px;
 }
 
 .contentForm .button {
+  color: #861819;
+}
+
+:global(.vtex-styleguide-9-x-input) {
+  font-size: 12px;
+}
+
+:global(.vtex-input-prefix__group) {
+  border-radius: 10px;
+  border-color: #861819 !important;
+}
+
+:global(.vtex-login-2-x-backButton) :global(.vtex-button) {
+  color: #861819;
+}
+
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button) {
+  background-color: #861819;
+}
+
+:global(.vtex-login-2-x-optionsList) :global(.vtex-button) {
   color: #861819;
 }
 
