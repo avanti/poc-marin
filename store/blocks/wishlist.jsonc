@@ -1,9 +1,4 @@
 {
-  "my-account-link.wishlist-link": {
-    "props": {
-      "label": "My Wishlist"
-    }
-  },
   "my-account-page.wishlist-page": {
     "children": ["flex-layout.row#top", "list-context.wishlist"]
   },
