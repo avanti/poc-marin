@@ -252,6 +252,10 @@
 /* END - Filter */
 /* BEGIN - SearchPage */
 
+:global(.vtex-search-result-13-x-searchNotFoundTerm) {
+  color: #861819;
+}
+
 .flexRow--blogTitle :global(.vtex-search-result-3-x-galleryTitle--layout) {
   margin-bottom: 32px;
 }
