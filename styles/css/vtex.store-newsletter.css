@@ -42,6 +42,7 @@
   padding: 0 !important;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--main-newsletter),
 :global(.vtex-render__container-id-newsletter)
   :global(.vtex-flex-layout-0-x-flexRow) {
   background-color: orange;

@@ -11,7 +11,12 @@
   "flex-layout.row#newsletter": {
     "children": ["rich-text#newsletter-title", "newsletter-form"],
     "props": {
-      "blockClass": ["items-center", "bg-blue-medium", "c-on-base--inverted"],
+      "blockClass": [
+        "items-center",
+        "bg-blue-medium",
+        "c-on-base--inverted",
+        "main-newsletter"
+      ],
       "paddingBottom": {
         "desktop": 0,
         "mobile": 7

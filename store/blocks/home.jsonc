@@ -1,8 +1,6 @@
 {
   "store.home": {
-    "blocks": [
-      /* "responsive-layout.desktop", "responsive-layout.mobile" */
-    ]
+    "blocks": ["responsive-layout.desktop", "responsive-layout.mobile"]
   },
   "responsive-layout.desktop": {
     "children": [
@@ -10,12 +8,12 @@
       //"flex-layout.row#shopByCategory",
       // Deprecated
       // "flex-layout.row#shopByBrand",
-      "flex-layout.row#shelf1", // shelf com problema
+      //"flex-layout.row#shelf1", // shelf com problema
       "flex-layout.row#imageBanners",
       "flex-layout.row#singleBanner",
       //"flex-layout.row#popular", //popular com defeito
       //"flex-layout.row#trending", // trending com defeito
-      "flex-layout.row#benefits"
+      "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
     ]
   },
