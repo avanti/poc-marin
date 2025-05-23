@@ -8,7 +8,7 @@
   },
   "product-summary.shelf#wishlist": {
     "props": {
-      "blockClass": "summaryComplete"
+      "blockClass": "summaryComplete-2"
     },
     "children": [
       "flex-layout.row#stackSavings",

@@ -1,8 +1,6 @@
 {
   "flex-layout.row#trending": {
-    "children": [
-      "flex-layout.col#trending"
-    ],
+    "children": ["flex-layout.col#trending"],
     "props": {
       "blockClass": "trendingSection"
     }
@@ -14,10 +12,7 @@
     ]
   },
   "flex-layout.row#trendingHead": {
-    "children": [
-      "rich-text#trendingTitle",
-      "link#trending"
-    ],
+    "children": ["rich-text#trendingTitle", "link#trending"],
     "props": {
       "blockClass": "trendingHead",
       "preventHorizontalStretch": true,
@@ -38,12 +33,8 @@
     }
   },
   "list-context.product-list#trending": {
-    "blocks": [
-      "product-summary.shelf#trending"
-    ],
-    "children": [
-      "slider-layout#trendingProducts"
-    ],
+    "blocks": ["product-summary.shelf#trending"],
+    "children": ["slider-layout#trendingProducts"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "maxItems": "6"
@@ -52,8 +43,8 @@
   "slider-layout#trendingProducts": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 6,
+        "desktop": 3,
+        "tablet": 3,
         "phone": 6
       },
       "infinite": false,

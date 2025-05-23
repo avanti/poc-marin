@@ -7,6 +7,16 @@
 :global(.vtex-input-prefix__group),
 .container:global(.vtex-dropdown__container) {
   border-color: var(--lines-darker);
+  border-radius: 10px;
+}
+
+/* :global(.vtex-flex-layout-10-x-flexRow--bg-fresh-blue-lightest) {
+  background-color: #861819;
+} */
+
+:global(.vtex-b-8b-organizations-1-x-userWidgetRow),
+:global(.vtex-b2b-organizations-1-x-userWidgetItem) {
+  background-color: orange;
 }
 
 .jsFocusVisible :global(.vtex__icon-caret-down),

@@ -162,6 +162,10 @@
   width: 92%;
   padding: 13px 0;
   font-size: 18px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #861819;
+  border-color: #861819;
 }
 
 .link--menu-order-quote {

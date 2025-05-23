@@ -8,11 +8,11 @@
       //"flex-layout.row#shopByCategory",
       // Deprecated
       // "flex-layout.row#shopByBrand",
-      //"flex-layout.row#shelf1", // shelf com problema
+      "flex-layout.row#shelf1", // shelf com problema
       "flex-layout.row#imageBanners",
       "flex-layout.row#singleBanner",
-      //"flex-layout.row#popular", //popular com defeito
-      //"flex-layout.row#trending", // trending com defeito
+      "flex-layout.row#popular", //popular com defeito
+      "flex-layout.row#trending", // trending com defeito
       "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
     ]
@@ -311,7 +311,7 @@
   "slider-layout#products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 3,
         "tablet": 3,
         "phone": 1
       },
