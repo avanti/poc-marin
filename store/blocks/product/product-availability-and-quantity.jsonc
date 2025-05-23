@@ -14,7 +14,7 @@
       "blockClass": "desktop",
       "threshold": "10",
       "lowStockMessage": "Only {quantity} left!",
-      "highStockMessage": "Item in stock!"
+      "highStockMessage": "Item em Estoque!"
     }
   },
 
