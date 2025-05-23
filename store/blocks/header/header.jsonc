@@ -179,7 +179,7 @@
   },
   "link#orderQuote": {
     "props": {
-      "label": "My Quotes",
+      "label": "Minhas Cotações",
       "href": "/b2b-quotes",
       "blockClass": "orderQuote"
     }
