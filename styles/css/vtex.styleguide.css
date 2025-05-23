@@ -14,9 +14,14 @@
   background-color: #861819;
 } */
 
-:global(.vtex-b-8b-organizations-1-x-userWidgetRow),
+:global(.vtex-b2b-organizations-1-x-userWidgetContainer) {
+  margin: 0;
+}
+
+:global(.vtex-b2b-organizations-1-x-userWidgetRow),
 :global(.vtex-b2b-organizations-1-x-userWidgetItem) {
   background-color: orange;
+  font-weight: bold;
 }
 
 .jsFocusVisible :global(.vtex__icon-caret-down),

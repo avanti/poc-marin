@@ -46,7 +46,7 @@
 
 .savings--savingPercentage {
   display: block;
-  background: var(--fresh-orange);
+  background: #861819;
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
