@@ -107,7 +107,7 @@
 .sliderRightArrow--shelfAlsoView,
 .sliderRightArrow--shelfPopular,
 .sliderRightArrow--shelfStyle1 {
-  border-color: #0067c7;
+  border-color: #861819;
 }
 
 .sliderRightArrow--shelfAlsoView,
@@ -129,6 +129,7 @@
 .sliderLeftArrow--shelfAlsoView,
 .sliderLeftArrow--shelfPopular,
 .sliderLeftArrow--shelfStyle1 {
+  border-color: #861819;
   background-position: 9px center !important;
   background-image: url("assets/icons/chevronLeftBlue.svg") !important;
 }

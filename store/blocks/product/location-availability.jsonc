@@ -42,7 +42,7 @@
   "rich-text#modal-trigger-shipping-availability": {
     "props": {
       "blockClass": ["modal-trigger-shipping-availability"],
-      "text": "See more shipping options",
+      "text": "Ver mais opções de entrega",
       "font": "t-small",
       "textColor": "c-on-action-secondary"
     }

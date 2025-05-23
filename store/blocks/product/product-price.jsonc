@@ -40,7 +40,7 @@
   "product-selling-price#desktop": {
     "props": {
       "blockClass": ["desktop"],
-      "message": "{sellingPriceWithTax} (with taxes)"
+      "message": "{sellingPriceWithTax} (com impostos)"
     }
   },
   "product-list-price#desktop": {

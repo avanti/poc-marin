@@ -28,8 +28,8 @@
   "slider-layout#alsoView": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 4,
+        "desktop": 3,
+        "tablet": 3,
         "phone": 2
       },
       "infinite": false,

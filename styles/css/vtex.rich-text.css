@@ -87,6 +87,10 @@
   margin-top: 32px;
 }
 
+:global(.vtex-rich-text-0-x-paragraph--modal-trigger-shipping-availability) {
+  color: #861819;
+}
+
 /* END - Generic */
 /* BEGIN - ShopByCategory */
 
