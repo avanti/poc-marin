@@ -37,7 +37,7 @@
   :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button)
   :global(.vtex-button) {
   border: none;
-  background-color: #ff5f00;
+  background-color: orange;
   height: 48px;
   border-radius: 10px;
 }
