@@ -15,6 +15,7 @@
 } */
 
 :global(.vtex-b2b-organizations-1-x-userWidgetContainer) {
+  background-color: orange;
   margin: 0;
 }
 
