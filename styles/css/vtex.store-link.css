@@ -157,6 +157,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 .link--order-quote {
   margin: 0 16px 16px;
   width: 92%;
@@ -165,6 +166,12 @@
   border-radius: 10px;
   background-color: transparent;
   color: #861819;
+  border-color: #861819;
+}
+
+.link--order-quote:hover {
+  background-color: #861819;
+  color: #ddd;
   border-color: #861819;
 }
 

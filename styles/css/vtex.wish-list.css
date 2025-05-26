@@ -5,18 +5,28 @@
   display: block;
   border-radius: 50%;
   background: #f3f9fe;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   opacity: 0;
   text-align: center;
 }
 
+/* SOLUCAO PALEATIVA PARA WISHLIST COM DEFEITO */
+
+/* :global(.vtex-account_menu-link) {
+  display: none !important;
+} */
+
+/* :global(.vtex-render__container-id-my-account-link) {
+  display: none !important;
+} */
+
 .wishlistIconContainer :global(.vtex-button):hover,
-.wishlistIconContainer :global(.vtex-button){
+.wishlistIconContainer :global(.vtex-button) {
   outline: none;
   background: none;
 }
 
-.wishlistIconContainer :global(.vtex-button__label){
+.wishlistIconContainer :global(.vtex-button__label) {
   padding: 0;
 }
 

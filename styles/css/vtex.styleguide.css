@@ -22,6 +22,7 @@
 :global(.vtex-b2b-organizations-1-x-userWidgetItem) {
   background-color: orange;
   font-weight: bold;
+  margin: auto;
 }
 
 .jsFocusVisible :global(.vtex__icon-caret-down),
