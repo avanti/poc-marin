@@ -1,7 +1,7 @@
 {
   "vendor": "marinlogistica",
   "name": "b2bstore",
-  "version": "3.0.15",
+  "version": "3.0.16",
   "defaultLocale": "en-US",
   "builders": {
     "assets": "0.x",
