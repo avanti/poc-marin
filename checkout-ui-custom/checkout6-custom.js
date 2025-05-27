@@ -42,7 +42,7 @@
         });
       },
       buildButton: function buildButton() {
-        return $();
+        return $("");
       },
       hideLoadingAndResetButton: function hideLoadingAndResetButton() {
         fakeSubmitButton.btn.find("i.icon-spinner").hide();
@@ -77,7 +77,7 @@
         poNumberInput.input = poNumberInput.buildInput();
       },
       buildInput: function buildInput() {
-        return $();
+        return $("");
       },
       showError: function showError() {
         $("#poNumberInput").addClass("error");
