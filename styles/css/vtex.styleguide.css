@@ -19,9 +19,8 @@
   border-radius: 10px;
 }
 
-:global(.vtex-b-8b-organizations-1-x-userWidgetModalInput)
-  :global(.vtex-button),
-:global(.vtex-b-8b-organizations-1-x-userWidgetModalJoinButton)
+:global(.vtex-b2b-organizations-1-x-userWidgetModalInput) :global(.vtex-button),
+:global(.vtex-b2b-organizations-1-x-userWidgetModalJoinButton)
   :global(.vtex-button) {
   border-radius: 10px;
 }
