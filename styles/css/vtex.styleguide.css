@@ -36,6 +36,7 @@
   background-color: orange;
   font-weight: bold;
   margin: auto;
+  gap: 14px;
 }
 
 .jsFocusVisible :global(.vtex__icon-caret-down),
