@@ -42,9 +42,7 @@
         });
       },
       buildButton: function buildButton() {
-        return $(
-          '<button class="jsSubmitFakeButton btn btn-success btn-large btn-block">\n        <i class="icon-lock"></i>\n        <i class="icon-spinner icon-spin" style="display: none;"></i>\n        <span>Complete Order</span>\n      </button>'
-        );
+        return $();
       },
       hideLoadingAndResetButton: function hideLoadingAndResetButton() {
         fakeSubmitButton.btn.find("i.icon-spinner").hide();
@@ -79,9 +77,7 @@
         poNumberInput.input = poNumberInput.buildInput();
       },
       buildInput: function buildInput() {
-        return $(
-          '\n        <div style="\n          padding-right: 15px;\n          margin-bottom: 10px;\n        " id="poWrap">\n        <label> Purchase Order Number: (optional) </label>\n          <input \n            type="text"\n            id="poNumberInput" style="\n            font-size: 20px;\n            height: 36px;\n            line-height: 34px;\n            width: 100%;" \n            name="poNumber">\n          <span class="help error feedback" style="display: none">This field is required.</span>\n        </div>'
-        );
+        return $();
       },
       showError: function showError() {
         $("#poNumberInput").addClass("error");
