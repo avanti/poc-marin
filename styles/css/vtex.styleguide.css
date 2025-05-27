@@ -10,9 +10,21 @@
   border-radius: 10px;
 }
 
-/* :global(.vtex-flex-layout-10-x-flexRow--bg-fresh-blue-lightest) {
-  background-color: #861819;
-} */
+:global(.vtex-b2b-organizations-1-x-userWidgetModalTableRow) {
+  border-radius: 10px;
+}
+
+:global(.vtex-b2b-organizations-1-x-userWidgetModalTableRowChecked) {
+  background: #861819 !important;
+  border-radius: 10px;
+}
+
+:global(.vtex-b-8b-organizations-1-x-userWidgetModalInput)
+  :global(.vtex-button),
+:global(.vtex-b-8b-organizations-1-x-userWidgetModalJoinButton)
+  :global(.vtex-button) {
+  border-radius: 10px;
+}
 
 :global(.vtex-b2b-organizations-1-x-userWidgetContainer) {
   background-color: orange;
